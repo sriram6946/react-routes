@@ -4,7 +4,6 @@ const Home = () => {
   return (
     <div className="flex justify-center mt-16">
       <form className="w-80 border p-6 rounded-lg shadow-md">
-
         <h2 className="text-xl font-semibold text-center mb-4">
           Login / Sign-up
         </h2>
@@ -27,22 +26,18 @@ const Home = () => {
               Login
             </button>
           </Link>
-         <Link to="/register">
+          <Link to="/register">
             <button
-             type="button"
-             className="bg-green-600 text-white px-4 py-2 rounded"
+              type="button"
+              className="bg-green-600 text-white px-4 py-2 rounded"
             >
-             Sign up
+              Sign up
             </button>
-         </Link>
-
+          </Link>
         </div>
-
       </form>
     </div>
   );
 };
 
 export default Home;
-
-

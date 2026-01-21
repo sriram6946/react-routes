@@ -13,15 +13,9 @@ const Login = () => {
         <button type="button" className="green-btn">
           Sign up
         </button>
-
       </div>
     </div>
   );
 };
 
 export default Login;
-
-
-
-
-

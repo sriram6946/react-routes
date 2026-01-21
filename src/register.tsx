@@ -4,7 +4,6 @@ const Register = () => {
   return (
     <div className="flex justify-center mt-16">
       <div className="w-80 border p-6 rounded-lg shadow-md">
-
         <h2 className="text-xl font-semibold text-center mb-4">
           Register Page
         </h2>
@@ -34,7 +33,6 @@ const Register = () => {
             Login
           </button>
         </NavLink>
-
       </div>
     </div>
   );

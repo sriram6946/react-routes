@@ -3,8 +3,6 @@ import { Outlet } from "react-router-dom";
 const AppLayout = () => {
   return (
     <div className="min-h-screen flex flex-col">
-
-   
       <header className="text-center py-4 border-b font-semibold text-lg">
         App
       </header>
@@ -13,11 +11,7 @@ const AppLayout = () => {
         <Outlet />
       </main>
 
-
-      <footer className="text-center py-4 border-t">
-        Footer2
-      </footer>
-
+      <footer className="text-center py-4 border-t">Footer2</footer>
     </div>
   );
 };

@@ -25,15 +25,9 @@ const Layout = () => {
       <main className="flex-1 p-6">
         <Outlet />
       </main>
-      <footer className="text-center py-4 border-t">
-        Footer
-      </footer>
-
+      <footer className="text-center py-4 border-t">Footer</footer>
     </div>
   );
 };
 
 export default Layout;
-
-
-
