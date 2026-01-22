@@ -7,7 +7,7 @@ const AppHome = () => {
         <h1>Home</h1>
       </strong>
       <Link to="/app/settings">
-        <button className="px-6 py-3 bg-green-600 text-white rounded">
+        <button className="w-40 px-6 py-3 bg-blue-600 text-white rounded">
           Settings
         </button>
       </Link>

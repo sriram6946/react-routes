@@ -2,7 +2,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="h-screen flex flex-col overflow-hidden">
       <nav className="flex justify-between items-center px-8 py-4 border-b">
         <NavLink
           to="/"
@@ -12,7 +12,7 @@ const Layout = () => {
         >
           Home
         </NavLink>
-
+        
         <NavLink
           to="/login"
           className={({ isActive }) =>
