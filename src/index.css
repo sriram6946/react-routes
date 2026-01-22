@@ -2,17 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-.footer{
+.footer {
   margin-top: auto;
   display: flex;
   justify-content: center;
-  
+
 }
-.navbar{
+
+.navbar {
   margin-top: auto;
   display: flex;
   justify-content: center;
 }
+
 .blue-btn {
   display: inline-block;
   text-align: center;
